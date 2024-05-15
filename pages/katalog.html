@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/style3.css">
+  <title>Каталог продукции</title>
+</head>
+  <body>
+    <div class="screen">
+      <header class="header">
+        <div class="header-inner">
+          <div class="logo-1">
+            <img  class="image-2-1" src="../image/20232704031459logo.svg" alt="Логотип">
+          </div>
+          <form>
+            <input type="text" id="text-to-find" value="" placeholder="Поиск" >
+            <input type="button" onclick="javascript: FindOnPage('text-to-find'); return false;" value="Найти"> 
+            <input type="button" onclick="javascript: CancelFind();" value="Отменить">
+          </form>
+          <div class="menu right-aligned">
+              <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+              <label for="burger-checkbox" class="burger"></label>
+              <ul class="menu-list">
+                  <li><a href="../glavnaya.html" class="menu-item">Главная</a></li>
+                  <li><a href="o_kompani.html" class="menu-item">О компании</a></li>
+                  <li><a href="katalog.html" class="menu-item">Каталог</a></li>
+              </ul>
+          </div>
+        </div>
+      </header>
+      <ul class="breadcrumbs">
+        <li><div class="rectangle-2"></div><div class="text-breadcrumbs">Каталог продукции</div></li>
+        <li><div class="rectangle-2"></div><div class="text-breadcrumbs"><a class="br" href="#1">Молоко</a></div></li>
+        <li><div class="rectangle-2"></div><div class="text-breadcrumbs"><a class="br" href="#2">Масло</a></div></li>
+        <li><div class="rectangle-2"></div><div class="text-breadcrumbs"><a class="br" href="#3">Кефир</a></div></li>
+        <li><div class="rectangle-2"></div><div class="text-breadcrumbs"><a class="br" href="#4">Сметана</a></div></li>
+        <li><div class="rectangle-2"></div><div class="text-breadcrumbs"><a class="br" href="#5">Йогурт</a></div></li>
+      </ul>
+
+      <div class="content">
+        <div class="block-1">
+          <h1><a id="1"></a>Молоко</h1>
+          <img class="image-2" src="../image/20232604011704p2.jpg" alt="Молоко1">
+          <p class="text-wrapper-2" onclick="openModal('modalMilk1')">Молоко «Вкусное» с м.д.ж. 2,8 %, пастеризованное 1 л</p>
+          <!-- Модальное окно для Молока1 -->
+          <div id="modalMilk1" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modalMilk1')">&times;</span>
+              <p class="modal-text-1">Молоко «Вкусное» с м.д.ж. 2,8 %, пастеризованное 1 л</p>
+              <p class="modal-text-2">Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока.<br>Не содержит консервантов и добавок. </p>
+              <img class="img-2" src="../image/20232604011704p2_2.jpg" alt="Молоко1">
+            </div>
+          </div>
+          <img class="image-3-1" src="../image/20232604011730p3.jpg"  alt="Молоко2">
+          <p class="text-wrapper-3" onclick="openModal('modalMilk2')">Молоко «Вкусное» с м.д.ж. 3,8 %, пастеризованное 0.5 л</p>
+          <!-- Модальное окно для Молока2 -->
+          <div id="modalMilk2" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modalMilk2')">&times;</span>
+              <p class="modal-text-1">Молоко «Вкусное» с м.д.ж. 3,8 %, пастеризованное 0.5 л</p>
+              <p class="modal-text-2">Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока.<br>Не содержит консервантов и добавок. </p>
+              <img class="img-2" src="../image/20232604011730p3_2.jpg" alt="Молоко2">
+            </div>
+          </div>
+          <img class="image-4" src="../image/20232604011755p4.jpg"  alt="Молоко3">
+          <p class="text-wrapper-4" onclick="openModal('modalMilk3')">Молоко «Вкусное» с м.д.ж. 3,8 %, пастеризованное 1 л</p>
+          <!-- Модальное окно для Молока3 -->
+          <div id="modalMilk3" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modalMilk3')">&times;</span>
+              <p class="modal-text-1">Молоко «Вкусное» с м.д.ж. 3,8 %, пастеризованное 1 л</p>
+              <p class="modal-text-2">Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока.<br>Не содержит консервантов и добавок. </p>
+              <img class="img-2" src="../image/20232604011755p4_2.jpg" alt="Молоко3">
+            </div>
+          </div>
+          <img class="image-5" src="../image/20232604011547p1.jpg"  alt="Молоко4">
+          <p class="text-wrapper-5" onclick="openModal('modalMilk4')">Молоко питьевое с м.д.ж. 3,8 % пастеризованное 1 л</p>
+           <!-- Модальное окно для Молока4 -->
+           <div id="modalMilk4" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modalMilk4')">&times;</span>
+              <p class="modal-text-1">Молоко питьевое с м.д.ж. 3,8 % пастеризованное 1 л</p>
+              <p class="modal-text-2">Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока.<br>Не содержит консервантов и добавок. </p>
+              <img class="img-2-1" src="../image/20232604011547p1_2.jpg" alt="Молоко3">
+            </div>
+          </div>
+        </div>
+        <div class="block-2">
+          <h1><a id="2"></a>Масло</h1>
+          <p class="text-wrapper-2" onclick="openModal('modalButter1')">Масло сладкосливочное несоленое &#34;Крестьянское&#34; с м.д.ж. 72,5 %</p>
+          <img class="image-2" src="../image/20232604011928p9.jpg"  alt="Масло1">
+          <!-- Модальное окно для Масло1 -->
+          <div id="modalButter1" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modalButter1')">&times;</span>
+              <p class="modal-text-1">Масло сладкосливочное несоленое &#34;Крестьянское&#34; с м.д.ж. 72,5 %</p>
+              <p class="modal-text-2">Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока.<br>Не содержит консервантов и добавок. </p>
+              <img class="img-3" src="../image/20232604011928p9_2.jpg" alt="Масло1">
+            </div>
+          </div>
+          <p class="text-wrapper-3" onclick="openModal('modalButter2')">Масло сладкосливочное несоленое &#34;MiLida&#34; с м.д.ж. 74%</p>
+          <img class="image-3" src="../image/20232604011834p7.jpg"  alt="Масло2">
+          <!-- Модальное окно для Масло2 -->
+          <div id="modalButter2" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modalButter2')">&times;</span>
+              <p class="modal-text-1">Масло сладкосливочное несоленое &#34;MiLida&#34; с м.д.ж. 74%</p>
+              <p class="modal-text-2">Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока.<br>Не содержит консервантов и добавок. </p>
+              <img class="img-3" src="../image/20232604011834p7_2.jpg" alt="Масло2">
+            </div>
+          </div>
+          <p class="text-wrapper-4" onclick="openModal('modalButter3')">Масло сладкосливочное несоленое &#34;MiLida&#34; с м.д.ж. 82,0%</p>
+          <img class="image-4" src="../image/20232604011859p8.jpg"  alt="Масло3">
+          <!-- Модальное окно для Масло3 -->
+          <div id="modalButter3" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modalButter3')">&times;</span>
+              <p class="modal-text-1">Масло сладкосливочное несоленое &#34;MiLida&#34; с м.д.ж. 82,0%</p>
+              <p class="modal-text-2">Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока.<br>Не содержит консервантов и добавок. </p>
+              <img class="img-3" src="../image//20232604011859p8_2.jpg" alt="Масло3">
+            </div>
+          </div>
+        </div>
+        <div class="block-2">
+          <h1><a id="3"></a>Кефир</h1>
+          <p class="text-wrapper-2"  onclick="openModal('modalKefir1')">Кефир с м.д.ж. 3,8% 500 г</p>
+          <img class="image-2" src="../image/20232604012041p30.jpg"  alt="Кефир1">
+          <!-- Модальное окно для Кефир1 -->
+          <div id="modalKefir1" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modalKefir1')">&times;</span>
+              <p class="modal-text-1">Кефир с м.д.ж. 3,8% 500 г</p>
+              <p class="modal-text-2">Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока.<br>Не содержит консервантов и добавок. </p>
+              <img class="img-2" src="../image/20232604012041p30_2.jpg" alt="Кефир1">
+            </div>
+          </div>
+          <p class="text-wrapper-3" onclick="openModal('modalKefir2')">Кефир с витамином &#34;С&#34; с м.д.ж. 3,0%</p>
+          <img class="image-3" src="../image/20232604012131p12.jpg"  alt="Кефир2">
+          <!-- Модальное окно для Кефир1 -->
+          <div id="modalKefir2" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modalKefir2')">&times;</span>
+              <p class="modal-text-1">Кефир с витамином &#34;С&#34; с м.д.ж. 3,0%</p>
+              <p class="modal-text-2">Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока.<br>Не содержит консервантов и добавок. </p>
+              <img class="img-2-1" src="../image/20232604012131p12_2.jpg" alt="Кефир2">
+            </div>
+          </div>
+          <p class="text-wrapper-4" onclick="openModal('modalKefir3')">Кефир с м.д.ж. 3,8 % 1000 г</p>
+          <img class="image-4" src="../image/20232604012155p13.jpg"  alt="Кефир3">
+          <!-- Модальное окно для Кефир1 -->
+          <div id="modalKefir3" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modalKefir3')">&times;</span>
+              <p class="modal-text-1">Кефир с м.д.ж. 3,8 % 1000 г</p>
+              <p class="modal-text-2">Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока.<br>Не содержит консервантов и добавок. </p>
+              <img class="img-2" src="../image/20232604012155p13_2.jpg" alt="Кефир3">
+            </div>
+          </div>
+        </div>
+        <div class="block-3">
+          <h1><a id="4"></a>Сметана</h1>
+          <p class="text-wrapper-2" onclick="openModal('modalSmetana1')">Биосметана &#34;Славянская&#34; с м.д.ж. 18% 500г</p>
+          <img class="image-2" src="../image/20232604012433p14.jpg"  alt="Сметана1">
+          <!-- Модальное окно для Сметана1 -->
+          <div id="modalSmetana1" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modalSmetana1')">&times;</span>
+              <p class="modal-text-1">Биосметана &#34;Славянская&#34; с м.д.ж. 18% 500г</p>
+              <p class="modal-text-2">Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока.<br>Не содержит консервантов и добавок. </p>
+              <img class="img-2-1" src="../image/20232604012433p14_2.jpg" alt="Сметана1">
+            </div>
+          </div>
+          <p class="text-wrapper-3" onclick="openModal('modalSmetana2')">Сметана с м.д.ж. 25 % 400 г</p>
+          <img class="image-3" src="../image/20232604012510p15.jpg"  alt="Сметана2">
+          <!-- Модальное окно для Сметана1 -->
+          <div id="modalSmetana2" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modalSmetana2')">&times;</span>
+              <p class="modal-text-1">Биосметана &#34;Славянская&#34; с м.д.ж. 18% 500г</p>
+              <p class="modal-text-2">Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока.<br>Не содержит консервантов и добавок. </p>
+              <img class="img-2-1" src="../image/20232604012510p15_2.jpg" alt="Сметана2">
+            </div>
+          </div>
+        </div>
+        <div class="block-3">
+          <h1><a id="5"></a>Йогурт</h1>
+          <p class="text-wrapper-2" onclick="openModal('modalYogurt1')">Биойогурт питьевой «Сандра» с м.д.ж. 1,5 % клубника 400 г</p>
+          <img class="image-2" src="../image/20232604012617p16.jpg"  alt="Йогурт1">
+          <!-- Модальное окно для Йогурт1 -->
+          <div id="modalYogurt1" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modalYogurt1')">&times;</span>
+              <p class="modal-text-1">Биойогурт питьевой «Сандра» с м.д.ж. 1,5 % клубника 400 г</p>
+              <p class="modal-text-2">Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока.<br>Не содержит консервантов и добавок. </p>
+              <img class="img-4" src="../image/20232604012617p16_2.jpg" alt="Йогурт1">
+            </div>
+          </div>
+          <p class="text-wrapper-3" onclick="openModal('modalYogurt2')">Йогурт с ароматом ванили с м.д.ж 3,2% 300 г</p>
+          <img class="image-3-1" src="../image/20232604012652p17.jpg"  alt="Йогурт2">
+          <!-- Модальное окно для Йогурт2 -->
+          <div id="modalYogurt2" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modalYogurt2')">&times;</span>
+              <p class="modal-text-1">Йогурт с ароматом ванили с м.д.ж 3,2% 300 г</p>
+              <p class="modal-text-2">Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок. <br>Вырабатывается из натурального коровьего молока. <br>Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока. <br> Не содержит консервантов и добавок.<br> Вырабатывается из натурального коровьего молока.<br>Не содержит консервантов и добавок. </p>
+              <img class="img-4" src="../image/20232604012652p17_2.jpg" alt="Йогурт2">
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="logo">
+              <img class="image-12" src="../image/20232704031459logo.svg" alt="Логотип">
+            </div>
+            <div class="footer-column">
+              <div class="text-wrapper-12">Контакты</div>
+                <xml version="1.0" encoding="UTF-8">
+                <contacts>
+                  <address class="text-wrapper-11">231300, Республика Беларусь, ул. Энгельса, 116 Гродненская обл., г. Лида</address>
+                  <working_hours>
+                    <mon_thurs class="text-wrapper-11">ПН - ЧТ: 08:00 - 17:00</mon_thurs> <br>
+                    <fri class="text-wrapper-11">ПТ: 08:00 - 15:45</fri> <br>
+                    <break class="text-wrapper-11">Обеденный перерыв:12:45-13:30</break> <br>
+                  </working_hours>
+                </contacts>
+              </xml>
+            </div> 
+        </div>
+      </footer>
+      <a href="#" id="toTop">
+          <svg width="10pt" height="10pt" viewBox="0 0 630 630" version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <g>
+                  <g>
+                      <path d="M489.229,442.468L254.563,37.135c-3.797-6.592-14.677-6.592-18.453,0L1.443,442.468c-1.92,3.307-1.92,7.36-0.021,10.667
+            c1.92,3.307,5.44,5.333,9.259,5.333h469.333c3.819,0,7.339-2.027,9.259-5.333C491.128,449.849,491.128,445.775,489.229,442.468z"/>
+                  </g>
+              </g>
+          </svg>
+       </a>
+      </div>
+    <script src="../script/jaba.js"></script>
+  </body>
+</html>
